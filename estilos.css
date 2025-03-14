@@ -1,0 +1,232 @@
+/* General */
+body {
+    font-family: 'Concert One', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin-top: 80px;
+    background: url(Imagenes/istockphoto-1877188858-612x612-transformed.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Navbar */
+.navbar {
+    border-radius: 23px;
+    background: #e0e0e0;
+    box-shadow:  23px 23px 46px #a1a1a1,
+                -23px -23px 46px #ffffff; 
+    padding: 15px 20px;
+}
+
+#Mercedes:hover {
+    color: white;
+    background-color: #00A19B;
+}
+
+#Red_bull:hover {
+    color: #FACD34;
+    background-color: #0B162F;
+}
+
+.nav-link {
+    color: white;
+    border-radius: 64px;
+    padding-right: 600px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Sección de bloques */
+.content-section {
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px #565F64;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px #ff0000;
+}
+
+/* Carrusel */
+.carousel-container {
+    border: 2px solid #ff0000;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#img_pistas img, #locat_pista iframe {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+#img_pistas img:hover, #locat_pista iframe:hover {
+    transform: scale(1.03);
+}
+
+/* Tabla de puntuación */
+.tabla_puntos {
+    display: flex;
+    justify-content: space-between;
+}
+
+#standings {
+    width: 65%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    font-size: 0.9rem;
+    background-color: #fafafa;
+}
+
+#standings th, #standings td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#standings td:hover {
+    background-color: #ff0000;
+    color: white;
+}
+
+.details {
+    width: 30%;
+    padding: 15px;
+    background-color: #ff0000;
+    border-radius: 8px;
+    text-align: center;
+    animation: fadeIn 0.8s ease forwards;
+    color: white;
+    height: 50%;
+}
+
+/* Estilo de imágenes de conductores */
+#driver-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+#driver-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+    padding: 8px 0;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+    border-top-left-radius: 34px;
+    border-top-right-radius: 34px;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+    overflow: hidden; 
+}
+
+.footer:hover {
+    background-color: #ff0000;
+}
+
+.footer h5 {
+    font-size: 16px;
+}
+
+.footer p, .footer a {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #bed9c8;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
+/* Posicionar redes sociales más a la derecha */
+.footer .row .col-md-4 {
+    padding-left: 30px;
+    text-align: center;
+}
+
+/* Ajuste del video */
+video {
+    width: 100%;
+    max-height: 500px; 
+    border-radius: 12px; 
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.card { 
+    color: #333333; 
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px #565F64;
+    background-color: #ff0000;
+    color: white;
+    animation: fadeIn 0.8s ease forwards;
+}
+
+.card-custom .card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: #565F64;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+#boton {
+    position: absolute ;
+    right: 180px;
+    width: 30px;
+    font-size: 28px;
+    margin: auto;
+    top: 15px;
+    cursor: pointer;
+}
+  
+.horizontal-list li {
+    display: inline; 
+    margin-right: 10px;
+}
+
+#frase {
+    text-align: center;
+}
