@@ -1,0 +1,196 @@
+/* General */
+body {
+    font-family: 'Concert One', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin-top: 80px;
+    background: url(/Imagenes/istockphoto-1877188858-612x612-transformed.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Navbar */
+.navbar {
+    border-radius: 23px;
+    background: #e0e0e0;
+    box-shadow:  23px 23px 46px #a1a1a1,
+                -23px -23px 46px #ffffff; 
+    padding: 15px 20px;
+}
+
+.nav-link {
+    color: white;
+    border-radius: 64px;
+}
+
+#Inicio:hover {
+    color: white;
+    background-color: #ff0000;
+}
+
+#Red_bull:hover {
+    color: #FACD34;
+    background-color: #0B162F;
+}
+
+.nav-link:hover {
+    color: #333 ;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Sección de bloques */
+.content-section {
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px #565F64;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px #00A19B;
+}
+
+.carousel-container {
+    border: 2px solid #00A19B;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+
+.footer {
+    padding: 8px 0;
+    background-color: #565F64;
+    color: white;
+    font-size: 14px;
+    border-top-left-radius: 34px;
+    border-top-right-radius: 34px ;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+    overflow: hidden; 
+}
+
+.footer:hover {
+    background-color: #00A19B;
+}
+
+.footer h5 {
+    font-size: 16px;
+}
+
+.footer p, .footer a {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #bed9c8;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
+
+.footer .row .col-md-4 {
+    padding-left: 30px;
+    text-align: center;
+}
+
+.card { 
+    color: #333333; 
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px #565F64;
+    margin-bottom: 30px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px #565F64;
+    background-color: #00A19B;
+    color: white;
+    animation: fadeIn 0.8s ease forwards;
+}
+
+.card-img-top {
+    height: 200px; 
+    object-fit: cover;
+}
+
+.carousel img {
+    width: 100%; 
+    height: 50%; 
+    object-fit: cover; 
+}
+
+#Wolf {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+#Rosie {
+    display: flex;
+    justify-content: space-between;
+}
+
+#monoplazo {
+    text-align: center; 
+}
+
+#Russell:hover, #Hamilton:hover {
+    background-color: #00A19B;
+    border-color: #00A19B;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#Wolf_img,#Rosie_img {
+    max-width: 25%;
+    height: auto;
+    margin: auto; 
+    display: block;
+}
+
+#Rosie_img {
+    padding-right: 30px ;
+}
+
+.btn-primary {
+    background-color: #565F64;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+#boton {
+    position: absolute ;
+    right: 180px;
+    width: 30px;
+    font-size: 28px;
+    margin: auto;
+    top: 15px;
+    cursor: pointer;
+}
+
+.horizontal-list li {
+    display: inline; 
+    margin-right: 10px;
+}

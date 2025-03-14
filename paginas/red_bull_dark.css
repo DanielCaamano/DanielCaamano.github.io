@@ -1,0 +1,59 @@
+.dark #boton {
+    position: absolute ;
+    right: 180px;
+    width: 30px;
+    font-size: 28px;
+    margin: auto;
+    top: 15px;
+    cursor: pointer;
+    color: #FACD34;
+}
+
+.dark {
+    background: url(/Imagenes/fibra_carbono-transformed.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.dark .navbar {
+    border-radius: 23px;
+    background: #494747;
+    box-shadow:  32px 32px 81px #2c2b2b,
+                -32px -32px 81px #616060; 
+    padding: 15px 20px;
+}
+
+.dark .nav-link{
+    color: #FACD34;
+}
+
+.dark .nav-link:hover{
+    color: white;
+}
+
+
+.dark .content-section {
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+.dark .card { 
+    color: white;
+    background-color: #333;
+    box-shadow: 0 4px 8px #555252;
+}
+
+.btn-primary {
+    background-color: #eecb5a;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #ffc919;
+    color: white;
+}
+
+.dark .card:hover {
+    background-color: #0B162F;
+    box-shadow: 0 4px 6px white;
+}

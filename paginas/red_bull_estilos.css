@@ -1,0 +1,206 @@
+/* General */
+body {
+    font-family: 'Concert One', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin-top: 80px;
+    background: url(/Imagenes/istockphoto-1877188858-612x612-transformed.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Navbar */
+.navbar {
+    border-radius: 23px;
+    background: #e0e0e0;
+    box-shadow:  23px 23px 46px #a1a1a1,
+                -23px -23px 46px #ffffff; 
+    padding: 15px 20px;
+}
+
+.nav-link {
+    color: white;
+    border-radius: 64px;
+}
+
+#Mercedes:hover {
+    color: white;
+    background-color: #00A19B;
+}
+
+#Inicio:hover {
+    color: white;
+    background-color: #ff0000;
+}
+
+.nav-link:hover {
+    color: #FACD34;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Sección de bloques */
+.content-section {
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px #565F64;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 100%;
+}
+
+.content-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px #FFC906;
+}
+
+/* Carrusel */
+.carousel-container {
+    border: 2px solid #0B162F;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/* Estilos para hacer el footer más pequeño */
+.footer {
+    padding: 8px 0;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+    border-top-left-radius: 34px;
+    border-top-right-radius: 34px ;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+    overflow: hidden; 
+}
+
+.footer:hover {
+    background-color: #0B162F;
+}
+
+.footer h5 {
+    font-size: 16px;
+}
+
+.footer p, .footer a {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #CC1C4A;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
+/* Posicionar redes sociales más a la derecha */
+.footer .row .col-md-4 {
+    padding-left: 30px;
+    text-align: center;
+}
+
+.card { 
+    color: #333333; 
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px #565F64;
+    margin-bottom: 30px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px #565F64;
+    background-color: #0B162F;
+    color: white;
+    animation: fadeIn 0.8s ease forwards;
+}
+
+.card-img-top {
+    height: 200px; 
+    object-fit: cover;
+}
+
+.carousel img {
+    width: 100%; 
+    height: 50%; 
+    object-fit: cover; 
+}
+
+#Horner {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+#Schmitz {
+    display: flex;
+    justify-content: space-between;
+}
+
+#monoplazo {
+    text-align: center; 
+}
+
+#Max:hover, #Perez:hover {
+    background-color: #0B162F;
+    border-color: #0B162F;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#Schmitz_img{
+    max-width: 300px; 
+    margin: auto; 
+    display: block;
+    padding-right: 30px;
+}
+
+#Horner_img {
+    max-width: 500px; 
+    margin: auto; 
+    display: block;
+}
+
+#Checo {
+    width: 87.3%; 
+    height: auto;
+}
+
+.btn-primary {
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #FACD34;
+    color: white;
+    border: none;
+}
+
+#boton {
+    position: absolute ;
+    right: 180px;
+    width: 30px;
+    font-size: 28px;
+    margin: auto;
+    top: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+.horizontal-list li {
+    display: inline; 
+    margin-right: 10px;
+}
